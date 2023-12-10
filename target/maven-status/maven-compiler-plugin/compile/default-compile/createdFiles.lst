@@ -1,0 +1,2 @@
+com\microservices\test\dockertestservice\DockerTestApplication.class
+com\microservices\test\dockertestservice\controller\DockerTestController.class
