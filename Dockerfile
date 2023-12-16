@@ -1,3 +1,4 @@
 FROM openjdk:18-jdk-alpine
-COPY target/docker-test-service-0.0.1-SNAPSHOT.jar docker-test-service.jar
+EXPOSE 8081
+ADD target/docker-test-service.jar docker-test-service.jar
 ENTRYPOINT ["java","-jar","/docker-test-service.jar"]
